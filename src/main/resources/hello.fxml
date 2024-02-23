@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns="http://javafx.com/javafx/21.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.controllers.YourController">
+    <children>
+        <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="600.0" prefWidth="870.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="livreurColumn" prefWidth="100.0" text="Livreur" />
+                <TableColumn fx:id="chefColumn" prefWidth="100.0" text="Chef" />
+                <TableColumn fx:id="adresse_source" prefWidth="100.0" text="Adresse Source" />
+                <TableColumn fx:id="adresse_destination" prefWidth="100.0" text="Adresse Destination" />
+                <TableColumn fx:id="Feedback_liv" prefWidth="100.0" text="Feedback Livraison" />
+                <TableColumn fx:id="réclamation" prefWidth="100.0" text="Réclamation" />
+                <TableColumn fx:id="time_start" prefWidth="100.0" text="Time Start" />
+                <TableColumn fx:id="commande" prefWidth="100.0" text="Commande" />
+                <!-- Add other TableColumns as needed -->
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
